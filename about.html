@@ -7,8 +7,127 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <p class="h1 text-center">lorem</p>
-    
+    <nav class="navbar navbar-expand-lg" style="background-color:pink;">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="index.html">Pete Mabalod</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                <li><a class="dropdown-item" href="gallery.html">Projects</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card mt-5 mx-auto" style="width: 18rem; border: solid black 2px;">
+      <img src="peterson.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"><blockquote class="blockquote">
+          <p>If your code seems to make you low, dont worry there is Stack Overflow.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">Pete Mabalod</cite>
+        </figcaption></p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <p class="h1 mx-5 mt-5">About Me:</p>
+
+    <div class="accordion mx-5 mb-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Hobbies:
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body"><em>My hobbies are coding, playing basketball, playing video-games, and spending time with friends.</em> 
+            
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Likes and Dislikes:
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <em>I love the moon (luna), because she gives light to my darkest times. And I dislike speaking in public.</em>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Dream Job:
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <em>Personally, my dream job would be a full-time programmer. Specifically i would want to work for the FAANG companies (Facebook or Meta, Amazon, Apple, Netflix, Google)</em> 
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <p class="h1 mx-5">Skills:</p>
+     <p style="margin-left: 80px;"class="strong mt-5"> HTML</p>
+
+     <div class="progress mb-5" style="margin-left: 80px; width: 80%;">
+      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <p style="margin-left: 80px;"class="strong"> CSS</p>
+
+     <div class="progress mb-5" style="margin-left: 80px; width: 80%;">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <p style="margin-left: 80px;"class="strong"> JS</p>
+
+     <div class="progress mb-5" style="margin-left: 80px; width: 80%;">
+      <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 40%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+   
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2021 Pete Mabalod, Inc</p>
+      </footer>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>

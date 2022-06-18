@@ -7,8 +7,121 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <p class="h1 text-center">Pildi Lakers</p>
-    
+    <nav class="navbar navbar-expand-lg" style="background-color:pink;">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="index.html">Pete Mabalod</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                <li><a class="dropdown-item" href="gallery.html">Projects</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   <div class="card mb-3 mx-auto mt-5" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="175" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Phone Number:</h5>
+        <p class="card-text">095678321653</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3 mx-auto mt-5" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="175" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Email:</h5>
+        <p class="card-text">peter.a.mabalod@gmail.com</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3 mx-auto mt-5" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="175" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Facebook:</h5>
+        <p class="card-text"><a href="https://www.facebook.com/pete.mabalod/" target="_blank">Pete Mabalod</a> </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <form action="contact.php" method="post">
+        <div class="container-fluid  p-5" style="background-color: white">
+        <div class="form-group">
+              <label for="exampleFormControlTextarea1">Full Name</label>
+              <input type="text" class="form-control" id="exampleFormControlTextarea1"  name="name">
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlInput1">Your Email Address:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlTextarea1">Subject:</label>
+              <input type="text" name="subject" required="required" class="form-control">
+          </div>
+          <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3" value="Send">Send</button>
+        </div>
+          
+      </form> 
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2021 Pete Mabalod, Inc</p>
+      </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
